@@ -1,12 +1,45 @@
-# React + Vite
+<h1  align="center"> Coin Flipper | devChallenges</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div  align="center">
 
-Currently, two official plugins are available:
+Solution for a challenge <a  href="https://devchallenges.io/challenge/flip-the-coin"  target="_blank">Flip The Coin</a> from <a  href="http://devchallenges.io"  target="_blank">devChallenges.io</a>.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+</div>
 
-## Expanding the ESLint configuration
+<div  align="center">
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<h3>
+
+<a  href="{https://coin-flipper-suryabk.vercel.app/">
+
+Demo
+
+</a>
+
+<span> | </span>
+
+<a  href="{https://devchallenges.io/solution/55662}">
+
+Solution
+
+</a>
+
+<span> | </span>
+
+<a  href="https://devchallenges.io/challenge/flip-the-coin">
+
+Challenge
+
+</a>
+
+</h3>
+
+</div>
+
+<!-- OVERVIEW -->
+
+## Overview
+
+"Flip the Coin" is a chill and interactive web project where you can flip a virtual coin by simply clicking the coin or tapping the "RANDOM" button
+
+![Thumbnail](https://github.com/suryabk/coin-flipper/blob/master/src/design/thumbnail.jpg?raw=true)
