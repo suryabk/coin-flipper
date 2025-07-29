@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "./App.css";
+import Heads from '../src/assets/heads.svg';
+import Tails from '../src/assets/tails.svg';
+import Shadow from '../src/assets/shadow.svg';
 
 function App() {
   const [flip, setFlip] = useState('Heads');
@@ -30,12 +33,12 @@ function CoinComponent(result) {
     <div className="container">
       <div className="coin">
         {result.flip === 'Heads' ? (
-          <img src="/src/assets/heads.svg" alt="Heads" />
+          <img src={Heads} alt="Heads" />
         ) : (
-          <img src="/src/assets/tails.svg" alt="Tails" />
+          <img src={Tails} alt="Tails" />
         )}
       </div>
-      <img src="/src/assets/shadow.svg" className="shadow" />
+      <img src={Shadow} className="shadow" />
     </div>
   );
 }
