@@ -9,9 +9,9 @@ Solution for a challenge <a  href="https://devchallenges.io/challenge/flip-the-c
 <div  align="center">
 
 <h3>
-<a href="{https://coin-flipper-suryabk.vercel.app/">Demo</a>
+<a href="https://coin-flipper-suryabk.vercel.app/">Demo</a>
 <span> | </span>
-<a  href="{https://devchallenges.io/solution/55662}">Solution</a>
+<a  href="https://devchallenges.io/solution/55662">Solution</a>
 <span> | </span>
 <a  href="https://devchallenges.io/challenge/flip-the-coin">
 Challenge
@@ -23,6 +23,6 @@ Challenge
 
 ## Overview
 
-"Flip the Coin" is a chill and interactive web project where you can flip a virtual coin by simply clicking the coin or tapping the "RANDOM" button
+"Flip the Coin" is a chill and interactive web project where you can flip a virtual coin by simply clicking the coin or tapping the "RANDOM" button. The result (Heads or Tails) is displayed dynamically using JavaScript.
 
 ![Thumbnail](https://github.com/suryabk/coin-flipper/blob/master/src/design/thumbnail.jpg?raw=true)
