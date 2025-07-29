@@ -1,35 +1,43 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [flip, setFlip] = useState('Heads');
+
+  const flipCoin = () => {
+    const result = Math.random() < 0.5 ? 'Heads' : 'Tails';
+    setFlip(result);
+    document.getElementById('result').textContent = result;
+  };
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <h1 className="stroke">Flip the coin</h1>
+      <p>Press the coin or the button to flip the coin</p>
+      <CoinComponent flip={flip} />
+      <div className="result">
+        <p>{flip}</p>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <button id="flipBtn" type="button" onClick={flipCoin} aria-label="Flip the coin randomly">
+        RANDOM
+      </button>
     </>
-  )
+  );
 }
 
-export default App
+function CoinComponent(result) {
+  return (
+    <div className="container">
+      <div className="coin">
+        {result.flip === 'Heads' ? (
+          <img src="/src/assets/heads.svg" alt="Heads" />
+        ) : (
+          <img src="/src/assets/tails.svg" alt="Tails" />
+        )}
+      </div>
+      <img src="/src/assets/shadow.svg" className="shadow" />
+    </div>
+  );
+}
+
+export default App;
