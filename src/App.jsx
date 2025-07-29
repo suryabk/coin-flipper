@@ -38,7 +38,7 @@ function CoinComponent(result) {
           <img src={Tails} alt="Tails" />
         )}
       </div>
-      <img src={Shadow} className="shadow" />
+      <img src={Shadow} alt="Coin Shadow" className="shadow" />
     </div>
   );
 }
