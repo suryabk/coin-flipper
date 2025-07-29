@@ -9,31 +9,14 @@ Solution for a challenge <a  href="https://devchallenges.io/challenge/flip-the-c
 <div  align="center">
 
 <h3>
-
-<a  href="{https://coin-flipper-suryabk.vercel.app/">
-
-Demo
-
-</a>
-
+<a href="{https://coin-flipper-suryabk.vercel.app/">Demo</a>
 <span> | </span>
-
-<a  href="{https://devchallenges.io/solution/55662}">
-
-Solution
-
-</a>
-
+<a  href="{https://devchallenges.io/solution/55662}">Solution</a>
 <span> | </span>
-
 <a  href="https://devchallenges.io/challenge/flip-the-coin">
-
 Challenge
-
 </a>
-
 </h3>
-
 </div>
 
 <!-- OVERVIEW -->
