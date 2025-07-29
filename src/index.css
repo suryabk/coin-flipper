@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;800;900&display=swap');
 
 :root {
   font-family: 'Kanit', system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -15,56 +15,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
   margin: 0;
+  background-color: #404A65;
   display: flex;
-  place-items: center;
+  justify-content: center;
   min-width: 320px;
   min-height: 100vh;
+  text-align: center;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.stroke {
+  text-shadow: rgb(53, 56, 63) 5px 0px 0px, rgb(53, 56, 63) 4.90033px 0.993347px 0px, rgb(53, 56, 63) 4.60531px 1.94709px 0px, rgb(53, 56, 63) 4.12668px 2.82321px 0px, rgb(53, 56, 63) 3.48353px 3.58678px 0px, rgb(53, 56, 63) 2.70151px 4.20736px 0px, rgb(53, 56, 63) 1.81179px 4.6602px 0px, rgb(53, 56, 63) 0.849836px 4.92725px 0px, rgb(53, 56, 63) -0.145998px 4.99787px 0px, rgb(53, 56, 63) -1.13601px 4.86924px 0px, rgb(53, 56, 63) -2.08073px 4.54649px 0px, rgb(53, 56, 63) -2.94251px 4.04248px 0px, rgb(53, 56, 63) -3.68697px 3.37732px 0px, rgb(53, 56, 63) -4.28444px 2.57751px 0px, rgb(53, 56, 63) -4.71111px 1.67494px 0px, rgb(53, 56, 63) -4.94996px 0.7056px 0px, rgb(53, 56, 63) -4.99147px -0.291871px 0px, rgb(53, 56, 63) -4.83399px -1.27771px 0px, rgb(53, 56, 63) -4.48379px -2.2126px 0px, rgb(53, 56, 63) -3.95484px -3.05929px 0px, rgb(53, 56, 63) -3.26822px -3.78401px 0px, rgb(53, 56, 63) -2.4513px -4.35788px 0px, rgb(53, 56, 63) -1.53666px -4.75801px 0px, rgb(53, 56, 63) -0.560763px -4.96845px 0px, rgb(53, 56, 63) 0.437495px -4.98082px 0px, rgb(53, 56, 63) 1.41831px -4.79462px 0px, rgb(53, 56, 63) 2.34258px -4.41727px 0px, rgb(53, 56, 63) 3.17346px -3.86382px 0px, rgb(53, 56, 63) 3.87783px -3.15633px 0px, rgb(53, 56, 63) 4.4276px -2.32301px 0px, rgb(53, 56, 63) 4.80085px -1.39708px 0px, rgb(53, 56, 63) 4.98271px -0.415447px 0px;
 }
