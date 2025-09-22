@@ -14,7 +14,7 @@ function App() {
     <>
       <h1 className="stroke">Flip the coin</h1>
       <p>Press the coin or the button to flip the coin</p>
-      <Coin flip={flip} />
+      <Coin result={flip} />
       <div className="result">
         <p style={{ display: flip === "" ? "none" : "block" }}>{flip}</p>
       </div>
